@@ -325,7 +325,6 @@ header{}
 
     .trigger-menu:active >.m-nav{
         display: block;
-        position: relative;
     }
 }
 
