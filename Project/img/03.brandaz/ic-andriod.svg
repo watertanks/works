@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <linearGradient id="3dogm3wbga" x1="86.725%" x2="2.393%" y1="30.953%" y2="79.619%">
+            <stop offset="0%" stop-color="#FF3944"/>
+            <stop offset="100%" stop-color="#FF002C"/>
+        </linearGradient>
+        <linearGradient id="nvfe6cm6xb" x1="100%" x2="0%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#00D0FF"/>
+            <stop offset="100%" stop-color="#00D0FF"/>
+        </linearGradient>
+        <linearGradient id="zva2k87k5c" x1="100%" x2="2.004%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#FFD200"/>
+            <stop offset="100%" stop-color="#FFD200"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g>
+                            <path fill="url(#3dogm3wbga)" d="M1.42 25.428c-.346 0-.648-.113-.883-.325l12.388-12.389 4.131 4.131-14.515 8.247c-.402.228-.782.336-1.121.336" transform="translate(-1467.000000, -2807.000000) translate(361.000000, 2778.000000) translate(432.000000, 0.000000) translate(674.000000, 29.000000) translate(6.000000, 3.000000)"/>
+                            <path fill="url(#nvfe6cm6xb)" d="M.537 25.103l-.075-.072C.172 24.723 0 24.246 0 23.626v.146V1.656v-.005.152C0 1.132.2.627.536.324l12.389 12.39L.537 25.103" transform="translate(-1467.000000, -2807.000000) translate(361.000000, 2778.000000) translate(432.000000, 0.000000) translate(674.000000, 29.000000) translate(6.000000, 3.000000)"/>
+                            <path fill="#00FF29" d="M12.925 12.714L.536.324C.771.112 1.073 0 1.419 0c.338 0 .719.108 1.122.336l14.515 8.247-4.131 4.131" transform="translate(-1467.000000, -2807.000000) translate(361.000000, 2778.000000) translate(432.000000, 0.000000) translate(674.000000, 29.000000) translate(6.000000, 3.000000)"/>
+                            <path fill="url(#zva2k87k5c)" d="M17.056 16.845l-4.131-4.131 4.131-4.131 4.986 2.833c.633.36.989.824 1.048 1.297v.002c-.059.473-.415.937-1.048 1.297l-4.986 2.833" transform="translate(-1467.000000, -2807.000000) translate(361.000000, 2778.000000) translate(432.000000, 0.000000) translate(674.000000, 29.000000) translate(6.000000, 3.000000)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

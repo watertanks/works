@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="240" viewBox="0 0 400 240">
+    <defs>
+        <rect id="lcjhx1f6ya" width="400" height="240" x="0" y="0" rx="4"/>
+        <rect id="3ujntf09nd" width="288" height="288" x="0" y="0" rx="4"/>
+        <filter id="d1ocqzcabc" width="124.3%" height="124.3%" x="-8.7%" y="-8.7%" filterUnits="objectBoundingBox">
+            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0669361522 0 0 0 0 0.0663638167 0 0 0 0 0.0994112319 0 0 0 0.04 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-420.000000, -1480.000000) translate(420.000000, 900.000000) translate(0.000000, 580.000000)">
+                    <mask id="s3ddichb7b" fill="#fff">
+                        <use xlink:href="#lcjhx1f6ya"/>
+                    </mask>
+                    <use fill="#F7F7F8" xlink:href="#lcjhx1f6ya"/>
+                    <g mask="url(#s3ddichb7b)">
+                        <g transform="translate(55.000000, -29.000000)">
+                            <g>
+                                <use fill="#000" filter="url(#d1ocqzcabc)" xlink:href="#3ujntf09nd"/>
+                                <use fill="#FFF" xlink:href="#3ujntf09nd"/>
+                            </g>
+                            <circle cx="261.5" cy="255.5" r="12.5" fill="#D8C8B3"/>
+                            <path fill="#FBFBFB" d="M15 77H276V79H15zM15 147H276V149H15zM15 219H276V221H15z"/>
+                            <circle cx="262.5" cy="113.5" r="12.5" fill="#FF1321"/>
+                            <path fill="#FFF" d="M257.363 117L256 110.804l3.986 2.196 2.514-4 2.514 4 3.986-2.196-1.363 6.196h-10.274z"/>
+                            <circle cx="262.5" cy="42.5" r="12.5" fill="#FF8C00"/>
+                            <path fill="#FFF" d="M256 40.531L258.57 37h7.86l2.57 3.531L262.5 48l-6.5-7.469z"/>
+                            <rect width="104" height="9" x="50" y="172" fill="#F7F7F7" rx="4.5"/>
+                            <rect width="104" height="9" x="50" y="246" fill="#F7F7F7" rx="4.5"/>
+                            <rect width="104" height="9" x="50" y="102" fill="#F7F7F7" rx="4.5"/>
+                            <rect width="104" height="9" x="50" y="28" fill="#F7F7F7" rx="4.5"/>
+                            <rect width="27" height="9" x="50" y="185" fill="#F7F7F7" rx="4.5"/>
+                            <rect width="27" height="9" x="50" y="259" fill="#F7F7F7" rx="4.5"/>
+                            <rect width="27" height="9" x="50" y="115" fill="#F7F7F7" rx="4.5"/>
+                            <rect width="27" height="9" x="50" y="41" fill="#F7F7F7" rx="4.5"/>
+                            <circle cx="262.5" cy="183.5" r="12.5" fill="#FFC400"/>
+                            <path fill="#FFF" d="M262 186.5L257.886 188.663 258.671 184.082 255.343 180.837 259.943 180.168 262 176 264.057 180.168 268.657 180.837 265.329 184.082 266.114 188.663z"/>
+                            <circle cx="28.5" cy="183.5" r="14.5" fill="#D8D8D8"/>
+                            <circle cx="28.5" cy="257.5" r="14.5" fill="#D8D8D8"/>
+                            <circle cx="28.5" cy="113.5" r="14.5" fill="#D8D8D8"/>
+                            <circle cx="28.5" cy="39.5" r="14.5" fill="#D8D8D8"/>
+                            <path fill="#FFF" d="M256.664 250.764L265.664 250.764 265.664 259.764 256.664 259.764z" transform="translate(261.163961, 255.263961) rotate(-45.000000) translate(-261.163961, -255.263961)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

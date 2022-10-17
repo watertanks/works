@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <linearGradient id="myvrz2w0la" x1="-10.057%" x2="109.092%" y1="94.406%" y2="7.571%">
+            <stop offset="0%" stop-color="#36C7FB"/>
+            <stop offset="100%" stop-color="#E41A8C"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" opacity=".8">
+        <g fill="url(#myvrz2w0la)" transform="translate(-1205 -1452)">
+            <g>
+                <g>
+                    <g>
+                        <path d="M14 21v23H0V21h14zm17-7v30H17V14h14zM48 4v40H34V4h14z" transform="translate(0 1010) translate(1180 417) translate(25 25)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
