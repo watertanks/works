@@ -116,11 +116,11 @@ a{text-decoration: none;}
 
 .m-nav{
     position: fixed;
+    justify-content: space-around;
         left: 0; top: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         background-color: #fff;
         width: 100%; height: 100%;
         transform: translateY(-100%);
@@ -243,8 +243,8 @@ h4{}
 ============================================================================
 ============================================================================ */
 @media (max-width: 480px){
-header{}
-    .header{position: fixed; 
+header{position: fixed; z-index: 500; width: 100%;}
+    .header{position: fixed; z-index: 500; width: 100%;
     }
     .header > div{
         width: 100%;
@@ -312,10 +312,54 @@ header{}
 
     .m-nav{
         display: flex;
+        max-height: 500px;
         
         }
 
-    .m-nav a{color: #000;}
+    
+    
+    .m-nav.active{
+        height: 350px;
+        justify-content:start
+    }
+
+    .m-nav.active div{
+        margin-top: 30px;
+    }
+    .m-nav.active >div:nth-of-type(2){
+        position: relative;
+        
+    }
+
+    .m-nav.active > div:nth-of-type(2) > span{
+        
+    }
+    .m.m-service{}
+
+    .m-service p{
+        transform: translateY(-100%);
+        display: none;
+        transition: 0.5s;
+    }
+
+
+    .m-service.active > p{
+        padding-top: 20px;
+        transform: translateY(10%);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    .m-service.active > p a{
+        margin-top: 5px;
+    }
+
+    .m-nav a{
+        color: #000;
+        font-weight: bold;
+    }
 
 
     .trigger-menu{
@@ -349,7 +393,6 @@ header{}
         top:50%;
         transition-property: none;
         transition-delay: 0;
-        
     }
 
 
@@ -358,6 +401,26 @@ header{}
 
 
 
+    .side{display: none;
+        
+    }
+    .side > a{
+    }
+    .side > img{
+    }
+    
+    h2{}
+    h3{}
+    h4{}
+
+
+
+
+
+
+
+
+    
 }
 
 

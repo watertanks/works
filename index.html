@@ -61,7 +61,7 @@
                     </button>
                 </div>
             </div>
-           
+
             <div class="m-nav">
                 <div>
                     <a href="./1.main.html">Herren</a>
@@ -69,8 +69,8 @@
                         .header > div > nav > div:nth-of-type(1) > a{font-weight: bold; color: #000;}
                         </style>
                 </div>
-                <div>
-                    <a href="./2.gong-bi-seo.html">Services</a>
+                <div class="m-service">
+                    <a>Services</a><span><img src="./img/01.main/m-menu-open.svg" alt=""></span></span>
                     <p>
                         <a href="./2.gong-bi-seo.html">공비서<br></a>
                         <a href="./3.brandaz.html">브랜다즈</a>
@@ -86,15 +86,7 @@
         </div>
         </header>
 
-        <script>
-            const mTrigger = document.querySelector(`.trigger-menu`)
-            const mNav = document.querySelector(`.m-nav`)
 
-            mTrigger.onclick = function(){
-                mNav.classList.toggle('active');
-                mTrigger.classList.toggle('active');
-            }
-        </script>
 
         <main class="main">
             <div class="main-1">
@@ -286,7 +278,23 @@
     </div>
 
 
+    <script>
+        const mTrigger = document.querySelector(`.trigger-menu`)
+        const mNav = document.querySelector(`.m-nav`)
 
+        mTrigger.onclick = function(){
+            mNav.classList.toggle('active');
+            mTrigger.classList.toggle('active');
+        }
+
+        const mService = document.querySelector(`.m-service`)
+        const mServiceBtn = document.querySelector('.m-service p')
+
+        mService.onclick = function(){
+            mService.classList.toggle('active');
+            mServiceBtn.classList.toggle('active');
+        }
+    </script>
 
 </body>
 </html>
