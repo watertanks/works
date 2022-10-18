@@ -109,8 +109,18 @@ a{text-decoration: none;}
 }
 
 .m-nav{
-    flex-direction: column;
-    display: none;
+    position: fixed;
+        left: 0; top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        width: 100%; height: 100%;
+        display: none;
+        transform: translateY(-100%);
+        transition: 0.5s;
+        max-height: 430px;
 }
 
 
@@ -288,19 +298,11 @@ header{}
     .m-menu{display: block;}
 
     .m-nav{
-        position: fixed;
-        left: 0; top: 0;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background-color: #fff;
-        width: 100%; height: 100%;
-        display: none;
-        transform: translateY(-100%);
-        transition: 0.5s;}
+        
+        }
 
-        .m-nav a{color: #000;}
+    .m-nav a{color: #000;}
 
 
     .trigger-menu{
@@ -337,9 +339,12 @@ header{}
         
     }
 
-    .m-nav{
-        display: flex;
-    }
+
+
+
+
+
+
 }
 
 
