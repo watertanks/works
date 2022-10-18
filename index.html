@@ -29,7 +29,9 @@
         <header>
             <div class="header">
                 <div>
+                    <div>
                     <a href="./1.main.html" alt="main logo"><img src="./img/01.main/logo.svg" alt=""></a>
+                    </div>
                 <nav>
                     <div>
                         <a href="./1.main.html">Herren</a>
@@ -58,30 +60,41 @@
                         <span></span>
                     </button>
                 </div>
-                <div class="m-nav">
-                    <div>
-                        <a href="./1.main.html">Herren</a>
-                        <style>
-                            .header > div > nav > div:nth-of-type(1) > a{font-weight: bold; color: #000;}
-                            </style>
-                    </div>
-                    <div>
-                        <a href="./2.gong-bi-seo.html">Services</a>
-                        <p>
-                            <a href="./2.gong-bi-seo.html">공비서<br></a>
-                            <a href="./3.brandaz.html">브랜다즈</a>
-                        </p>
-                    </div>
-                    <div>
-                        <a href="./4.culture.html">Culture</a>
-                    </div>
-                    <div>
-                        <a href="./5.life&people.html">Life & People</a>
-                    </div>
+            </div>
+           
+            <div class="m-nav">
+                <div>
+                    <a href="./1.main.html">Herren</a>
+                    <style>
+                        .header > div > nav > div:nth-of-type(1) > a{font-weight: bold; color: #000;}
+                        </style>
+                </div>
+                <div>
+                    <a href="./2.gong-bi-seo.html">Services</a>
+                    <p>
+                        <a href="./2.gong-bi-seo.html">공비서<br></a>
+                        <a href="./3.brandaz.html">브랜다즈</a>
+                    </p>
+                </div>
+                <div>
+                    <a href="./4.culture.html">Culture</a>
+                </div>
+                <div>
+                    <a href="./5.life&people.html">Life & People</a>
                 </div>
             </div>
         </div>
         </header>
+
+        <script>
+            const mTrigger = document.querySelector(`.trigger-menu`)
+            const mNav = document.querySelector(`.m-nav`)
+
+            mTrigger.onclick = function(){
+                mNav.classList.toggle('active');
+                mTrigger.classList.toggle('active');
+            }
+        </script>
 
         <main class="main">
             <div class="main-1">
