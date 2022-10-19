@@ -381,7 +381,7 @@ font-size: 40px; padding: 50px 0;
 }
 
 .main-3-1 > a{
-    font-size: 78px; font-family:'Do Hyeon', sans-serif;
+    font-size: 50px; font-family:'Do Hyeon', sans-serif;
     transition: 0.4s; padding: 50px; color: cornflowerblue;
     cursor: default; width: 100%;
 }
