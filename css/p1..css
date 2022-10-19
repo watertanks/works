@@ -294,10 +294,10 @@ font-size: 40px; padding: 50px 0;
 }
 
 /* ===========================================================================
-==================================480======================================
+==================================785======================================
 =========================================================================== */
 
-@media (max-width: 480px){
+@media (max-width: 785px){
     .wrap{
     align-items: center; width: 100%;
 }
@@ -309,67 +309,71 @@ font-size: 40px; padding: 50px 0;
 
 .main-1{
     margin: 0; width: 100%;
-    padding-bottom: 200px;
 }
 .main-1 > video{
     width: 100%;
     height: 100%;
     text-align: center;
+    padding-top: 55px;
+    object-fit: cover;
 }
 .main-1 > div{
-    
-    top: 50%; left: 50%;
-    font-size: 26px; color: #fff;
+    top: 40%; left: 50%;
+    color: #fff;
     text-align: center; transform: translate(-50%, -50%);
     display: flex; flex-direction: column;
 }
 
-.main-1> div >p{
-    width: 100%; padding: 20px 0;
+.main-1> div p{
+    width: 100%; padding: 0;
     display: block; text-align: center;
     margin-block-start: 1em; align-items: center;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
+    
 }
 .main-1> div > p:nth-of-type(1){
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
+    align-items: center;
 }
 .main-1> div >p:nth-of-type(2){
-    margin-top: 30px;
     font-size: 16px;
 }
 
 .main-2{
-    display: flex; height: 370px;
+    display: flex; height: 100%;
     justify-content: space-between;
     width: 100%; margin: 0 auto;
-    padding: 50px;
+    padding-bottom: 0px;
+    flex-direction: column;
 
 }
 .main-2 > div{
-    width: 405px;
+    width: 100%;
 }
 
 
 .main-3{
     margin: 0 auto; width: 100%;
-    padding: 200px 0;
 
 }
 
+.main-3 >b{
+    padding-left: 50px ;
+}
+
 .main-3 > div{
-    display: flex; padding: 50px;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-between;
     align-items: center; font-weight: bold;
+    flex-direction: column;
 }
 
 .main-3-1{
     display: flex; width: 100%;
     flex-direction: column; text-align: center;
     box-shadow: 20px -10px 1000 10 gray;
+    border: 1px solid #eee;
 }
 
 .main-3-1 > a{
@@ -381,6 +385,7 @@ font-size: 40px; padding: 50px 0;
 .main-3-1 > div{
     display: flex; margin-top: 40px;
     flex-direction: column; 
+    
 }
 .s1{
     border: 1px solid #ddd; padding: 5px;
@@ -400,6 +405,7 @@ font-size: 40px; padding: 50px 0;
     display: flex; width: 100%;
     flex-direction: column;text-align: center;
     box-shadow: 20px -10px 10 10 gray;
+    border: 1px solid #eee;
 }
 
 .main-3-2 > a{
@@ -442,11 +448,11 @@ font-size: 40px; padding: 50px 0;
     background-image: url(/Project/img/01.main/main_img_culture_bg\ \(1\).png);
     background-repeat: no-repeat; width: 100%;
     height: 700px; margin: 0 auto; align-items: center; margin: 0 auto;
-    justify-content: center;
+    justify-content: center; padding-left: 50px;
 }
 
 .main-4 > div{
-    width: 1200px; margin: 0 auto;
+    width: 100%; margin: 0 auto;
     left: 15%; 
 }
 .s3{
@@ -461,13 +467,13 @@ font-size: 40px; padding: 50px 0;
 }
 
 .main-5{
-    padding: 100px 0;
+    padding:0;
     margin: 0 auto;
     
 }
 .main-5-1{
     display: flex; justify-content: space-between;
-    max-width: 1200px; width: 100%;
+    max-width: 780; width: 100%;
     margin: 0 auto;
 }
 .main-5-1 > b{
@@ -524,16 +530,19 @@ font-size: 40px; padding: 50px 0;
 
 .footer > div{
     width: 100%; margin: 0 auto;
-    display: flex;
+    display: flex; flex-direction: column;
 }
 
 .footer > div > div:nth-of-type(1){
     display: flex; width: 100%;
+    flex-direction: column;
 }
 
 .footer > div > span{}
 
-.footer > div > div > span{}
+.footer > div > div > span:nth-of-type(2){
+    display: flex;
+}
 
 .footer > div > div > span > b{
     font-size: 18px; text-decoration: underline;
@@ -553,7 +562,7 @@ font-size: 40px; padding: 50px 0;
     
 }
 .footer-1 > div{
-    padding-bottom: 50px; width: 100%;
+    width: 100%;
     text-align: left;display: flex; flex-direction: column;
 }
 .footer-1 div > div:nth-of-type(1){
@@ -575,7 +584,7 @@ font-size: 40px; padding: 50px 0;
 
 .footer-1 >div >div{
     display: flex; justify-content: space-between;
-    
+    flex-direction: column;
     padding: 30px 0px; width: 100%;
 }
 

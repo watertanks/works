@@ -312,7 +312,7 @@ header{position: fixed; z-index: 500; width: 100%;}
 
     .m-nav{
         display: flex;
-        max-height: 500px;
+        max-height: 30%;
         
         }
 
@@ -320,7 +320,9 @@ header{position: fixed; z-index: 500; width: 100%;}
     
     .m-nav.active{
         height: 350px;
-        justify-content:start
+        justify-content:start;
+        top:-20px;
+        
     }
 
     .m-nav.active div{
