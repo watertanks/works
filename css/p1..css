@@ -467,7 +467,7 @@ font-size: 40px; padding: 50px 0;
 }
 
 .main-5{
-    padding:0;
+    padding-left: 50px;
     margin: 0 auto;
     
 }
@@ -524,13 +524,14 @@ font-size: 40px; padding: 50px 0;
 .footer{
     background-color: #000;
     color: #fff; text-align: left;
-    height: 512px;
-    padding: 88px 0 96px 0;
+    height: 100%;
+    padding-left: 50px;
 }
 
 .footer > div{
-    width: 100%; margin: 0 auto;
+    width: 100%; margin: 0 auto; padding: 0;
     display: flex; flex-direction: column;
+    
 }
 
 .footer > div > div:nth-of-type(1){
