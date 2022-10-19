@@ -300,6 +300,7 @@ font-size: 40px; padding: 50px 0;
 @media (max-width: 785px){
     .wrap{
     align-items: center; width: 100%;
+    margin: 0 auto;
 }
 
 
@@ -344,22 +345,23 @@ font-size: 40px; padding: 50px 0;
     display: flex; height: 100%;
     justify-content: space-between;
     width: 100%; margin: 0 auto;
-    padding-bottom: 0px;
     flex-direction: column;
+
 
 }
 .main-2 > div{
+    margin: 0 auto;
     width: 100%;
 }
 
 
 .main-3{
     margin: 0 auto; width: 100%;
-
+    padding:50px
 }
 
 .main-3 >b{
-    padding-left: 50px ;
+    
 }
 
 .main-3 > div{
@@ -367,6 +369,7 @@ font-size: 40px; padding: 50px 0;
     justify-content: space-between;
     align-items: center; font-weight: bold;
     flex-direction: column;
+    padding: 0;
 }
 
 .main-3-1{
@@ -448,7 +451,7 @@ font-size: 40px; padding: 50px 0;
     background-image: url(/Project/img/01.main/main_img_culture_bg\ \(1\).png);
     background-repeat: no-repeat; width: 100%;
     height: 700px; margin: 0 auto; align-items: center; margin: 0 auto;
-    justify-content: center; padding-left: 50px;
+    justify-content: center; padding: 50px;
 }
 
 .main-4 > div{
@@ -467,9 +470,8 @@ font-size: 40px; padding: 50px 0;
 }
 
 .main-5{
-    padding-left: 50px;
     margin: 0 auto;
-    
+    padding-left: 50px;
 }
 .main-5-1{
     display: flex; justify-content: space-between;
