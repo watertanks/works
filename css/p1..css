@@ -300,12 +300,13 @@ font-size: 40px; padding: 50px 0;
 @media (max-width: 785px){
     .wrap{
     align-items: center; width: 100%;
-    margin: 0 auto;
+    margin: 0 auto; padding: 0;
 }
 
 
 .main{
     align-items: center; margin: 0 auto;
+    padding: 0;
 }
 
 .main-1{
@@ -346,7 +347,7 @@ font-size: 40px; padding: 50px 0;
     justify-content: space-between;
     width: 100%; margin: 0 auto;
     flex-direction: column;
-
+    padding:0 50px 0px
 
 }
 .main-2 > div{
@@ -357,7 +358,7 @@ font-size: 40px; padding: 50px 0;
 
 .main-3{
     margin: 0 auto; width: 100%;
-    padding:50px
+    padding:0 50px 0px
 }
 
 .main-3 >b{
@@ -409,18 +410,25 @@ font-size: 40px; padding: 50px 0;
     flex-direction: column;text-align: center;
     box-shadow: 20px -10px 10 10 gray;
     border: 1px solid #eee;
-    
 }
 
 .main-3-2 > a{
     font-size: 70px;
-    transition: 0.4s; padding: 56px;
+    transition: 0.4s; 
     cursor: default;
     box-sizing: border-box;
+    position: relative;
 }
-.main-3-2 > a > img{
+.main-3-2  a  img{
     margin: 0 auto;
-    left: 50%;
+    padding:0;
+    position: absolute;
+    display: block;
+    left: 22.5%;
+    top: 17.5%;
+}
+
+.main-3-2 > a img:nth-of-type(2){
     
 }
 
@@ -439,15 +447,20 @@ font-size: 40px; padding: 50px 0;
 .s2 > a{color: #000; font-weight: bold;}
 
 .main-3-2:hover > a{
+    position: relative;
     left: -15%;
     margin: 0 auto;
+    width: 100%;
 }
 .main-3-2 > a > img:nth-of-type(2){
     opacity: 0; 
+    position: absolute;
     left: 50%;
+    top: 50%;
 }
 .main-3-2:hover > a > img:nth-of-type(1){
     opacity: 0; margin: 0 auto;
+    position: absolute;
 }
 .main-3-2:hover > a > img:nth-of-type(2){
     opacity: 100; transition: 0.5s;
@@ -460,7 +473,7 @@ font-size: 40px; padding: 50px 0;
     background-image: url(/Project/img/01.main/main_img_culture_bg\ \(1\).png);
     background-repeat: no-repeat; width: 100%;
     height: 700px; margin: 0 auto; align-items: center; margin: 0 auto;
-    justify-content: center; padding: 50px;
+    justify-content: center; padding:0 50px 0px
 }
 
 .main-4 > div{
@@ -480,7 +493,7 @@ font-size: 40px; padding: 50px 0;
 
 .main-5{
     margin: 0 auto;
-    padding-left: 50px;
+    padding:0 50px 0px
 }
 .main-5-1{
     display: flex; justify-content: space-between;
