@@ -409,13 +409,19 @@ font-size: 40px; padding: 50px 0;
     flex-direction: column;text-align: center;
     box-shadow: 20px -10px 10 10 gray;
     border: 1px solid #eee;
+    
 }
 
 .main-3-2 > a{
     font-size: 70px;
     transition: 0.4s; padding: 56px;
     cursor: default;
-
+    box-sizing: border-box;
+}
+.main-3-2 > a > img{
+    margin: 0 auto;
+    left: 50%;
+    
 }
 
 .main-3-2 > div{
@@ -432,10 +438,13 @@ font-size: 40px; padding: 50px 0;
 
 .s2 > a{color: #000; font-weight: bold;}
 
-.main-3-2:hover > a{}
+.main-3-2:hover > a{
+    left: -15%;
+    margin: 0 auto;
+}
 .main-3-2 > a > img:nth-of-type(2){
     opacity: 0; 
-    left: 33%;
+    left: 50%;
 }
 .main-3-2:hover > a > img:nth-of-type(1){
     opacity: 0;
