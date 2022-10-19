@@ -404,17 +404,19 @@ header{position: fixed; z-index: 500; width: 100%;}
 
 
     .side{position: fixed;
-        bottom:0; height: 100px;
+        bottom:0; height: 60px;
         width: 100%;margin: 0 auto;
         left: 0; align-items: center;
         text-align: center;
         padding: 0 40%;
         border-radius: 0;
+        border: 0;
         
         
     }
     .side > a{
         font-size: 16px;
+        width: 100%;
     }
     .side > img{display: none;
     }
