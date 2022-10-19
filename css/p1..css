@@ -390,7 +390,7 @@ font-size: 40px; padding: 50px 0;
 .s1{
     border: 1px solid #ddd; padding: 5px;
     border-radius: 25px; margin: 0 auto;
-    width: 154px; text-align: center;
+    width: 100%; text-align: center;
     line-height: 50px; font-weight: bold;
 }
 .s1 > a{color: #000; font-weight: bold;}
