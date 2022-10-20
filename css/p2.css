@@ -1,4 +1,4 @@
-@import url(./common.css);
+@import url('./common.css');
 
 body{font-family: "Noto Sans KR", Sans-Serif;}
 
@@ -56,7 +56,8 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     justify-content: space-evenly;
 }
 
-.main-2-1 > span{}
+.main-2-1 > span:nth-of-type(1){}
+
 
 .main-2-1 > span > div{
     display: flex; height: 50px;
@@ -73,12 +74,12 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     
 }
 .main-2-1 > span > span > p{
-    border: 1px solid #000;
+    border: 1px solid #fff;;
     font-size: 14px; color: #4c4c4c;
     background-color: #f6f6f6; border-radius: 30px;
-    width: 220px; line-height: 30px; height: 60px;
+    width: auto; line-height: 30px; height: auto;
     text-align: center; align-items: center;
-    align-content: center;
+    align-content: center; padding: 10px;
 }
 
 .main-3{
@@ -100,6 +101,7 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
 .main-3 >div > div:nth-of-type(2) > span{
     margin-bottom: 60px;
 }
+.main-3 > div > div:nth-of-type(2) > span:nth-of-type(3){display: none;}
 .main-3> div > div:nth-of-type(2) > span > b{
     font-size: 34px;
 }
@@ -205,11 +207,10 @@ display: flex; padding-bottom: 500px;}
 
 
 .main-5{
-    background-image: url(/Project/img/02-gong-bi-seo/bg-joinus-02.png);
     margin: 0 auto; max-width: 1920px; height: 325px;
     position: relative;
 }
-
+.main-5 img:nth-of-type(2){display: none;}
 .main-5 > div{
     position: absolute;
     top: 30%; left: 30%;
@@ -251,7 +252,7 @@ display: flex; padding-bottom: 500px;}
 
     body{font-family: "Noto Sans KR", Sans-Serif;}
 
-.wrap{max-width: 100%;
+.wrap{max-width: 100%; margin: 0 auto;
 }
 .main-1{
     margin: 0 auto; width: 100%;
@@ -259,23 +260,27 @@ display: flex; padding-bottom: 500px;}
 }
 
 .main-1 > img{
-    margin: 0 auto; width: 1920px;
-    height: 350px; 
+    margin: 0 auto; width: 100%;
+    height: 100%; padding-top: 50px;
 }
 
 .main-2{
-    max-width: 1200px; margin: 0 auto;
+    max-width: 100%; margin: 0 auto;
     top: -25px; position: relative;
+    padding: 50px;
 }
 
 .main-2 > h2{font-size: 50px;}
 
 .main-2 > div{
     display: flex; margin-top: 100px;
+    flex-direction: column;
+
 }
 
 .main-2 >div > div:nth-of-type(1) > span > p{
-    width: 160px; font-size: 18px; text-decoration: underline;
+    width: 100%; font-size: 12px; text-decoration: underline;
+    margin-bottom: 20px;
 }
 
 .main-2 > div > div:nth-of-type(2){
@@ -286,10 +291,10 @@ display: flex; padding-bottom: 500px;}
     margin-bottom: 60px;
 }
 .main-2> div > div:nth-of-type(2) > span > b{
-    font-size: 34px;
+    font-size: 20px;
 }
 .main-2> div > div:nth-of-type(2) > span > b > b{
-    font-size: 34px; color: #fff;
+    font-size: 20px; color: #fff;
     background-color: #000; font-weight: bold;
 }
 
@@ -303,9 +308,23 @@ display: flex; padding-bottom: 500px;}
 .main-2-1{
     display: flex; margin: 10px 0;
     justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+    height: 700px;
 }
 
-.main-2-1 > span{}
+.main-2-1 > span:nth-of-type(1){
+    position: absolute; top: 0;
+    left: 0;
+}
+.main-2-1 > span:nth-of-type(2){
+    position: absolute; bottom: 0;
+    right: 0;
+    
+}
+
+.main-2-1 > span:nth-of-type(2) > div{
+        flex-direction: row-reverse;}
 
 .main-2-1 > span > div{
     display: flex; height: 50px;
@@ -314,32 +333,39 @@ display: flex; padding-bottom: 500px;}
 }
 .main-2-1 > span > div > p{
     text-align: center; font-weight: bold;
-    align-items: center;
+    align-items: center; font-size: 14px;
 }
 
+.main-2-1 span div img{width: 30px; height: 30px;}
+.main-2-1 span div p{text-align: center; align-items: center; padding: 5px 0;}
 .main-2-1 > span > span{
     display: flex; flex-wrap: wrap;
-    
+    align-items: center; text-align: center;
+    margin: 5px 0; width: 200px;
 }
 .main-2-1 > span > span > p{
-    border: 1px solid #000;
-    font-size: 14px; color: #4c4c4c;
+    border: 1px solid #fff;
+    font-size: 11px; color: #4c4c4c;
     background-color: #f6f6f6; border-radius: 30px;
-    width: 220px; line-height: 30px; height: 60px;
+    width: 200px; line-height: 30px; height: auto;
     text-align: center; align-items: center;
-    align-content: center;
+    align-content: center; padding:10px;
+    margin: 0 auto;
 }
 
 .main-3{
-    max-width: 1200px; margin: 0 auto;
+    max-width: 100%; margin: 0 auto;
+    padding: 50px;
 }
 
 .main-3 > div{
-    display: flex; margin-top: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .main-3 >div > div:nth-of-type(1) > span > p{
-    width: 160px; font-size: 18px; text-decoration: underline;
+    width: 100%; font-size: 18px; text-decoration: underline;
+    margin-bottom: 20px; font-size: 12px; 
 }
 
 .main-3 > div > div:nth-of-type(2){
@@ -349,11 +375,16 @@ display: flex; padding-bottom: 500px;}
 .main-3 >div > div:nth-of-type(2) > span{
     margin-bottom: 60px;
 }
+.main-3 > div > div:nth-of-type(2) > span:nth-of-type(2){display: none;}
+.main-3 > div > div:nth-of-type(2) > span:nth-of-type(3){display: block; margin: 0 auto;}
+.main-3 > div > div:nth-of-type(2) > span:nth-of-type(3) > img{width: 100%; height: 100%;}
+
+
 .main-3> div > div:nth-of-type(2) > span > b{
-    font-size: 34px;
+    font-size: 20px;
 }
 .main-3> div > div:nth-of-type(2) > span > b > b{
-    font-size: 34px; color: #fff;
+    font-size: 20px; color: #fff;
     background-color: #000; font-weight: bold;
 }
 
@@ -362,35 +393,43 @@ display: flex; padding-bottom: 500px;}
     margin-top: 10px;
 }
 
-.main-4{max-width: 1200px; margin: 0 auto;
-display: flex; padding-bottom: 500px;}
+
+
+
+.main-4{max-width: 100%; margin: 0 auto;
+display: flex; padding: 50px;
+flex-direction: column;}
 
 .main-4 > div{
-    width: 424px;height: 27.2px;
+    width: 100%;height: 100%
 }
 .main-4 > div > p{
-    font-size: 18px;
+    font-size: 12px;
 }
 
 
 .main-4-1{
-    display: flex; flex-direction: column;
+    display: flex;
     align-items: center; text-align: center;
 }
 
 .main-4-2{
-    display: flex; width: 776px;
+    display: flex; width: 100%;
+    
 }
 .main-4-2 > div:nth-of-type(1){
     width: 150px; height: 90px;
+    align-items: center;
 }
-.main-4-2 > div:nth-of-type(1) > img{
+.main-4-2 > div > img{
     width: 65px; height: 20px;
+    margin-top: 46px;
 }
 
 .main-4-2 > div:nth-of-type(2){
     display: flex; width: 776px; height: 112px;
-    justify-content: space-between;
+    justify-content: space-between; flex-direction: column;
+    text-align: start;
 }
 .main-4-2 > div:nth-of-type(2) >div:nth-of-type(1){}
 .main-4-2 > div:nth-of-type(2) >div:nth-of-type(1) > p:nth-of-type(1){
@@ -404,17 +443,19 @@ display: flex; padding-bottom: 500px;}
 }
 
 
-.main-4-3{display: flex; width: 776px;}
-.main-4-3 > div:nth-of-type(1){
-    width: 150px; height: 90px;
+.main-4-3{display: flex;width: 100%;}
+.main-4-3 > div{
+    width: 100%; height: 100%;
 }
 .main-4-3 > div:nth-of-type(1) > img{
-    width: 65px; height: 20px;
+    width: 50px; height: 50px;
+    margin-top: 32px;
 }
 
 .main-4-3 > div:nth-of-type(2){
     display: flex; width: 776px; height: 112px;
     justify-content: space-between;
+    flex-direction: column;text-align: start;
 }
 .main-4-3 > div:nth-of-type(2) >div:nth-of-type(1){}
 .main-4-3 > div:nth-of-type(2) >div:nth-of-type(1) > p:nth-of-type(1){
@@ -428,17 +469,19 @@ display: flex; padding-bottom: 500px;}
 }
 
 
-.main-4-4{display: flex; width: 776px;}
+.main-4-4{display: flex; width: 100%;}
 .main-4-4 > div:nth-of-type(1){
     width: 150px; height: 90px;
 }
 .main-4-4 > div:nth-of-type(1) > img{
     width: 65px; height: 20px;
+    margin-top: 46px;
 }
 
 .main-4-4 > div:nth-of-type(2){
     display: flex; width: 776px; height: 112px;
-    justify-content: space-between;
+    justify-content: space-between;flex-direction: column;
+    text-align: start;
 }
 .main-4-4 > div:nth-of-type(2) >div:nth-of-type(1){}
 .main-4-4 > div:nth-of-type(2) >div:nth-of-type(1) > p:nth-of-type(1){
@@ -454,36 +497,43 @@ display: flex; padding-bottom: 500px;}
 
 
 .main-5{
-    background-image: url(/Project/img/02-gong-bi-seo/bg-joinus-02.png);
-    margin: 0 auto; max-width: 1920px; height: 325px;
+    margin: 0 auto; width: 100%; height: 100%;
     position: relative;
+}
+.main-5 img:nth-of-type(1){display: none;}
+.main-5 img:nth-of-type(2){
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .main-5 > div{
     position: absolute;
-    top: 30%; left: 30%;
+    top: 40%; left: 30%;
 }
 
 .main-5 > div >p{
     margin: 0 auto;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
     color: #fff;
+    text-align: center;
+    top: 50%; left: 50%;
 }
 
 
 .main-5 > div > a{
-    padding :100px
+    padding :40px
 }
 
 .main-5 >div >  a > div{
     border: 2px solid #fff;
     border-radius: 25px;
-    width: 205px; height: 54px;
+    width: 141px; height: 40px;
     text-align: center;
-    margin: 0 auto; align-items: center;
-    padding: 13px 0;
-    font-size: 16px;
+    margin: 20px auto; align-items: center;
+    padding: 10px 0;
+    font-size: 12px;
     color: #fff; font-weight: bold;
 
 }
