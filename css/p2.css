@@ -9,9 +9,12 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     
 }
 
-.main-1 > img{
+.main-1 > img:nth-of-type(1){
     margin: 0 auto; width: 1920px;
     height: 350px; 
+}
+.main-1 > img:nth-of-type(2){
+    display: none;
 }
 
 .main-2{
@@ -259,7 +262,9 @@ display: flex; padding-bottom: 500px;}
     
 }
 
-.main-1 > img{
+.main-1 > img:nth-of-type(1){display: none;}
+.main-1 > img:nth-of-type(2){
+    display: block;
     margin: 0 auto; width: 100%;
     height: 100%; padding-top: 50px;
 }
@@ -270,7 +275,7 @@ display: flex; padding-bottom: 500px;}
     padding: 50px;
 }
 
-.main-2 > h2{font-size: 50px;}
+.main-2 > h2{font-size: 26px; top: -100px;}
 
 .main-2 > div{
     display: flex; margin-top: 100px;
@@ -428,18 +433,28 @@ flex-direction: column;}
 
 .main-4-2 > div:nth-of-type(2){
     display: flex; width: 776px; height: 112px;
-    justify-content: space-between; flex-direction: column;
-    text-align: start;
+    justify-content: center; flex-direction: column;
+    text-align: start; margin-left: 20px;
 }
-.main-4-2 > div:nth-of-type(2) >div:nth-of-type(1){}
+.main-4-2 > div:nth-of-type(2) >div:nth-of-type(1){
+    margin-bottom: 10px;
+}
 .main-4-2 > div:nth-of-type(2) >div:nth-of-type(1) > p:nth-of-type(1){
     font-size: 24px;
 }
 .main-4-2 > div:nth-of-type(2) >div:nth-of-type(1) > p:nth-of-type(2){
     font-size: 14px;color: #929292;
 }
-.main-4-2 > div:nth-of-type(2) >div:nth-of-type(2) > a:nth-of-type(3) > img{
-    width: 32px; height: 32px;
+.main-4-2 > div:nth-of-type(2) >div:nth-of-type(2) > a{
+    margin: 0 5px;
+    width: 40px;
+}
+.main-4-2 > div:nth-of-type(2) > div:nth-of-type(2) a img{
+    width: 20px; height: 20px;
+}
+
+.main-4-2 > div:nth-of-type(2) > div:nth-of-type(2) a:nth-of-type(3) img{
+    width: 20px; height: 20px;
 }
 
 
@@ -454,43 +469,58 @@ flex-direction: column;}
 
 .main-4-3 > div:nth-of-type(2){
     display: flex; width: 776px; height: 112px;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;text-align: start;
+    margin-left: 35px;
 }
-.main-4-3 > div:nth-of-type(2) >div:nth-of-type(1){}
+.main-4-3 > div:nth-of-type(2) >div:nth-of-type(1){
+    margin-bottom: 10px;
+}
 .main-4-3 > div:nth-of-type(2) >div:nth-of-type(1) > p:nth-of-type(1){
     font-size: 24px;
 }
 .main-4-3 > div:nth-of-type(2) >div:nth-of-type(1) > p:nth-of-type(2){
     font-size: 14px;color: #929292;
 }
-.main-4-3 > div:nth-of-type(2) >div:nth-of-type(2) a:nth-of-type(2) > img{
-    width: 32px; height: 32px;
+
+.main-4-3 > div:nth-of-type(2) >div:nth-of-type(2)>a{
+    margin: 0 5px;
+    width: 40px;
 }
+
+.main-4-3 > div:nth-of-type(2) >div:nth-of-type(2) a > img{
+    width: 20px; height: 20px;
+}
+.main-4-3 > div:nth-of-type(2) > div:nth-of-type(2) a:nth-of-type(2) img{
+    width: 20px; height: 20px;}
 
 
 .main-4-4{display: flex; width: 100%;}
 .main-4-4 > div:nth-of-type(1){
     width: 150px; height: 90px;
 }
-.main-4-4 > div:nth-of-type(1) > img{
+.main-4-4 > div:nth-of-type(1)  img{
     width: 65px; height: 20px;
     margin-top: 46px;
 }
 
 .main-4-4 > div:nth-of-type(2){
     display: flex; width: 776px; height: 112px;
-    justify-content: space-between;flex-direction: column;
-    text-align: start;
+    justify-content: center;flex-direction: column;
+    text-align: start;margin-left: 20px;
 }
-.main-4-4 > div:nth-of-type(2) >div:nth-of-type(1){}
+.main-4-4 > div:nth-of-type(2) >div:nth-of-type(1){
+    margin-bottom: 10px;
+}
 .main-4-4 > div:nth-of-type(2) >div:nth-of-type(1) > p:nth-of-type(1){
     font-size: 24px;
 }
 .main-4-4 > div:nth-of-type(2) >div:nth-of-type(1) > p:nth-of-type(2){
     font-size: 14px; color: #929292;
 }
-.main-4-4 > div:nth-of-type(2) >div:nth-of-type(2){}
+.main-4-4 > div:nth-of-type(2) >div:nth-of-type(2) a img{
+    width: 20px; height: 20px;
+}
 
 
 
@@ -498,18 +528,19 @@ flex-direction: column;}
 
 .main-5{
     margin: 0 auto; width: 100%; height: 100%;
-    position: relative;
+    
 }
 .main-5 img:nth-of-type(1){display: none;}
 .main-5 img:nth-of-type(2){
     display: block;
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 .main-5 > div{
     position: absolute;
-    top: 40%; left: 30%;
+    bottom: 30%; right: 20%;
 }
 
 .main-5 > div >p{
@@ -522,9 +553,7 @@ flex-direction: column;}
 }
 
 
-.main-5 > div > a{
-    padding :40px
-}
+.main-5 > div > a{}
 
 .main-5 >div >  a > div{
     border: 2px solid #fff;
