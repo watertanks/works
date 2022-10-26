@@ -245,7 +245,7 @@ h4{}
 ============================================================================ */
 @media (max-width: 785px){
 header{position: fixed; z-index: 500; width: 100%;}
-    .header{position: fixed; z-index: 500; width: 100%;
+    .header{position: fixed; z-index: 500; width: 100%; z-index: 150;
     }
     .header > div{
         width: 100%;
@@ -404,7 +404,7 @@ header{position: fixed; z-index: 500; width: 100%;}
 
 
 
-    .side{position: fixed;
+    .side{position: fixed;z-index: 150;
         bottom:0; height: 60px;
         width: 100%;margin: 0 auto;
         left: 0; align-items: center;
