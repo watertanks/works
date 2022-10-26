@@ -125,10 +125,11 @@ a{text-decoration: none;}
         width: 100%; height: 100%;
         transform: translateY(-100%);
         transition: 0.5s;
-        max-height: 430px;
+        
 }
 .m-nav.active{
     transform: translateY(20%);
+    
 }
 
 
@@ -312,8 +313,7 @@ header{position: fixed; z-index: 500; width: 100%;}
 
     .m-nav{
         display: flex;
-        max-height: 30%;
-        
+        height: 100%;
         }
 
     
@@ -327,6 +327,7 @@ header{position: fixed; z-index: 500; width: 100%;}
 
     .m-nav.active div{
         margin-top: 30px;
+        margin-bottom: 30px;
     }
     .m-nav.active >div:nth-of-type(2){
         position: relative;
