@@ -11,7 +11,7 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     
 }
 
-.main-1 > img{
+.main-1 > img:nth-of-type(1){
     margin: 0 auto; width: 1920px;
     height: 350px; 
 }
@@ -165,7 +165,8 @@ margin-top: 100px; margin-bottom: 90px;}
     text-align: start;
 }
 
-.main-5-1 > div > img{}
+.main-5-1 > div:nth-of-type(1) > img{}
+.main-5-1 > div:nth-of-type(2) > img{display: none;}
 
 .main-5-1 > div:nth-of-type(2){
     padding-top: 95px;
@@ -184,6 +185,10 @@ padding-bottom: 50px; line-height: 28px;}
 }
 
 .main-6 > div{text-align: start;}
+
+.main-6 > div >img:nth-of-type(1){}
+.main-6 > div >img:nth-of-type(2){display: none;}
+
 .main-6 > div > h2{font-size: 30px; padding-top: 150px;}
 
 .main-6 > div > p{font-size: 16px;color: #585858;
@@ -196,6 +201,9 @@ padding-bottom: 50px; line-height: 28px;}
 }
 
 .main-7 > div{text-align: start;}
+.main-7 > div img:nth-of-type(1){display: block;}
+.main-7 > div img:nth-of-type(2){display: none;}
+
 .main-7 > div > h2{font-size: 30px; padding-top: 120px;}
 
 .main-7 > div > p{font-size: 16px;
@@ -463,31 +471,42 @@ body{width: 100%; margin: 0 auto;}
     
     .main-5-1{display: flex;
         justify-content: space-evenly;
+        flex-direction: column;
     }
     
     .main-5-1 > div{
         text-align: start;
+        margin: 0 auto;
+        width: 100%;
+        
     }
     
-    .main-5-1 > div > img{}
+    .main-5-1 > div:nth-of-type(1) > img{display: none;}
+    .main-5-1 > div:nth-of-type(2) > img{
+        display: block;
+        width: 100%;
+    }
+    .main-5-1 > div:nth-of-type(3){margin: 0 auto; width: 100%;}
     
     .main-5-1 > div:nth-of-type(2){
         padding-top: 95px;
     }
     
-    .main-5-1 > div > h2{font-size: 30px; padding-bottom: 20px;}
-    .main-5-1 > div > p{font-size: 16px; color: #585858;
+    .main-5-1 > div > h2{font-size: 20px; padding-bottom: 20px; text-align: center;}
+    .main-5-1 > div > p{font-size: 13px; color: #585858;text-align: center;
     padding-bottom: 50px; line-height: 28px;}
-    .main-5-1 > div > p > b{font-size: 16px;
+    .main-5-1 > div > p > b{font-size: 13px; text-align: center;
         line-height: 28px; color: #ff1321;}
-    .main-5-1 > div > b{font-size: 22px;} 
+    .main-5-1 > div > b{font-size: 13px; text-align: center; display: block;} 
     
-    .main-6{ max-width: 100%; width: 100%;
+    .main-6{ max-width: 100%; width: 100%;align-items: center;
         margin: 0 auto; display: flex; justify-content: space-around;
-        flex-direction: row-reverse;
+        flex-direction: column;
     }
     
-    .main-6 > div{text-align: start;}
+    .main-6 > div{text-align: center;}
+    .main-6 > div >img:nth-of-type(1){display: none;}
+    .main-6 > div >img:nth-of-type(2){display: block; width: 100%;}
     .main-6 > div > h2{font-size: 30px; padding-top: 150px;}
     
     .main-6 > div > p{font-size: 16px;color: #585858;
@@ -496,10 +515,13 @@ body{width: 100%; margin: 0 auto;}
     
     .main-7{ max-width: 100%; width: 100%;
         margin: 0 auto; display: flex; justify-content: space-around;
-        
+        flex-direction: column;
     }
     
-    .main-7 > div{text-align: start;}
+    .main-7 > div{text-align: center;}
+    .main-7 > div img:nth-of-type(1){display: none;}
+    .main-7 > div img:nth-of-type(2){display: block; align-items: center; width: 100%;}
+
     .main-7 > div > h2{font-size: 30px; padding-top: 120px;}
     
     .main-7 > div > p{font-size: 16px;
@@ -509,13 +531,16 @@ body{width: 100%; margin: 0 auto;}
     
     .main-8{max-width: 100%; width: 100%;
         margin: 0 auto; text-align: start;
-        padding-top: 200px; display: flex;}
+        padding-top: 200px; display: flex;
+        flex-direction: column;
+    }
         .main-8 > div:nth-of-type(1){
-            width: 424px; text-align: start;
+            width: 100%; text-align: start;
+            margin-left: 50px;
         }
     .main-8 > div:nth-of-type(1) > p{
         text-decoration: underline;
-        font-weight: bold;
+        font-weight: bold; font-size: 12px;
     }
     
     .main-8-1{
@@ -538,7 +563,7 @@ body{width: 100%; margin: 0 auto;}
         display: flex; justify-content: flex-end;
     }
     .main-8-1 > div > div > img{
-        width: 95px; height: 30px;
+        width: 80px; height: 30px;
     }
     .main-8-1 > div > div >div{
         width: 156px; height: 62px;
