@@ -572,8 +572,9 @@ body{width: 100%; margin: 0 auto;}
     }
     .main-8-1 > div > div > div > h2{
         font-size: 18px; width: 203px;
+        display: flex; 
     }
-    .main-8-1 > div > div > div > h2 > a > img{
+    .main-8-1 > div > div > div > h2 >div > a > img{
         width: 20px; height: 20px;
     }
     .main-8-1 > div > div >div> p{

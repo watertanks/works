@@ -8,6 +8,9 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     margin: 0 auto; width: 1920px; height: 300px;
     
 }
+.main-1 img:nth-of-type(2){
+    display: none;
+}
 
 
 .main-2{
@@ -31,7 +34,9 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     font-size: 18px; font-weight: bold;
     text-decoration: underline; width:130px;
 }
-.main-2 > div > div > h3{font-size: 34px;}
+.main-2 > div > div > h3:nth-of-type(1){font-size: 34px;}
+.main-2 > div > div > h3:nth-of-type(2){display: none;}
+
 .main-2 > div > div > img{width: 1071px;height: 438px;
 }
 
@@ -51,7 +56,7 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
 .main-2-1 >div> div:nth-of-type(2) > div{
     background-color: #fff;
 }
-.main-2-1 >div> div > p{}
+.main-2-1 >div> div > p{background-color: #fff;}
 
 .main-2-1 >div> div > div{
     width: 326px; height: 214px;
@@ -104,7 +109,8 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     font-size: 16px;
     line-height: 1.75
 }
-.main-4 > div > div > img{}
+.main-4 > div > div > img:nth-of-type(1){display: block}
+.main-4 > div > div > img:nth-of-type(2){display: none;}
 
 
 
@@ -131,9 +137,8 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     width: 720px;
     
 }
-.main-5 > div > div >img{
-    
-}
+.main-5 > div > div >img:nth-of-type(1){display: block;}
+.main-5 > div > div >img:nth-of-type(2){display: none;}
 
 
 .main-6{
@@ -149,3 +154,181 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
 .main-6 > ul > li > h2{font-size: 24px;}
 .main-6 > ul > li > h2 >b{font-size: 24px; color:#98a2ac ;}
 .main-6 > ul > li > p{font-size: 16px; width: 1036.3px;}
+
+/* ===========================================================
+==============================================================
+=============================785==============================
+==============================================================
+=========================================================== */
+@media (max-width: 785px){
+
+    .main-1{
+        margin: 0 auto; width: 100%; height: 300px;
+        
+    }
+    .main-1 img{width: 100%;}
+    .main-1 img:nth-of-type(1){display: none;}
+    .main-1 img:nth-of-type(2){
+        display: block;
+    }
+    
+    .main-2{
+        width: 100%;
+        margin: 0 auto;
+        top:-50px; position: relative;
+        
+    }
+    
+    .main-2 > h2{
+        font-size: 26px; width: 100%; margin: 0 auto;
+        padding-bottom: 50px; text-align: left;
+    }
+    
+    .main-2 > div{display: flex; flex-direction: column;
+        width: 1200px; margin: 0 auto;}
+    .main-2 > div > div{
+        
+    }
+    .main-2 > div > div > p{
+        font-size: 10px; font-weight: bold;
+        text-decoration: underline; width:130px;
+    }
+    .main-2 > div > div > h3:nth-of-type(1){display: none;}
+    .main-2 > div > div > h3:nth-of-type(2){display: block;font-size:20px;}
+    
+    .main-2 > div > div > img{width: 50%;height: 50%;
+    }
+    
+    .main-2-1{
+        display: flex; width: 100%; margin: 0 auto;
+        flex-direction: column;background-color: #f6f6f6;
+    }
+    .main-2-1 > div{width: 100%;}
+    
+    .main-2-1 >div> div{}
+    .main-2-1 >div> div:nth-of-type(2){
+        display: flex; justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .main-2-1 >div> div:nth-of-type(2) > div{
+        background-color: #fff;
+    }
+    .main-2-1 >div> div > p{}
+    
+    .main-2-1 >div> div > div{
+        width: 100%; height: 100%;
+        text-align: start;
+    }
+    .main-2-1 >div> div > div > img{}
+    .main-2-1 >div> div > div > h4{font-size: 24px;}
+    .main-2-1 >div> div > div > p{}
+    
+    .main-3{width: 100%; margin: 0 auto;}
+    .main-3 > h3{
+        font-size: 12px; text-decoration: underline;
+        color: #444f57; margin-bottom: 30px;
+        padding: 0;
+    }
+    
+    .main-3 > div{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;}
+    .main-3 > div > div{
+        
+    }
+    .main-3 > div > div >b{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .main-3 > div > div >b > b{
+        color: #c7c7c7;font-size: 20px;
+    }
+    .main-3 > div > div >p{
+        font-size: 13px;
+        line-height: 1.75
+    
+    }
+    .main-3 > div > div >img{}
+    
+    
+    .main-4{width: 100%; margin: 0 auto;
+            padding-top: 200px;
+    }
+    .main-4 > div{}
+    .main-4 > div > div{}
+    .main-4 > div > div > b{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .main-4 > div > div > b > b{
+        color: #c7c7c7;font-size: 30px;
+    }
+    .main-4 > div > div p{
+        font-size: 16px;
+        line-height: 1.75
+    }
+    .main-4 > div > div > img:nth-of-type(1){display: none;}
+    .main-4 > div > div > img:nth-of-type(2){
+        display: block;
+        width: 100%;
+    }
+    
+    
+    
+    .main-5{
+        width: 100%; margin: 0 auto;
+        padding-top: 200px;
+    }
+    
+    .main-5 > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+    .main-5 > div > div{width: 100%;
+        
+    }
+    .main-5 > div > div >b{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .main-5 > div > div >b > b{
+        color: #c7c7c7;font-size: 30px;
+    }
+    .main-5 > div > div >p{
+        font-size: 16px;
+        line-height: 1.75;
+        width: 720px;
+        
+    }
+    .main-5 > div > div >img:nth-of-type(1){display: none;}
+    .main-5 > div > div >img:nth-of-type(2){
+        display: block;
+        width: 100%;
+    }
+    
+    
+    .main-6{
+            width: 100%; margin: 0 auto;
+            padding-top: 200px;display: flex;
+            flex-direction: column;
+    }
+    .main-6 > div{}
+    .main-6 > div > h2{
+        width: 100%;font-size: 30px; margin: 0 32px 20px 0;}
+    .main-6 > ul{display: flex; flex-direction: column;}
+    .main-6 > ul > li{padding-bottom: 60px;}
+    .main-6 > ul > li > h2{font-size: 24px;}
+    .main-6 > ul > li > h2 >b{font-size: 24px; color:#98a2ac ;}
+    .main-6 > ul > li > p{font-size: 16px; width: 100%;}
+
+
+
+
+
+
+
+
+
+}
