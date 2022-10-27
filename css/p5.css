@@ -245,7 +245,9 @@ text-align: start;}
     margin-bottom: 100px;
 }
 .main-4 > div > ul{}
-.main-4 > div > ul > img{}
+.main-4 > div > ul > img{
+    width: 100%;
+}
 
 .main-4-1{}
 .main-4-1 li{display: flex; text-align: start; justify-items: center;}
