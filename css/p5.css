@@ -200,22 +200,22 @@ padding-bottom: 20px; width: 560px;}
 }
 
 .main-2 > h2{
-    font-size: 50px; width: 100%; margin: 0 auto;
-    padding-bottom: 50px;
+    font-size: 26px; width: 100%; margin: 0 auto;
+    margin-top: 20px;
 }
 
 .main-3{
     width: 100%; margin: 0 auto;
     display: flex;
     flex-direction: column;
-    padding:100px 0 100px 20px;
+    padding:50px 0 50px 20px;
 }
 .main-3 > ul{}
 .main-3 > ul > h2{
-    font-size: 30px; margin: 0 0 50px;
+    font-size: 14px; margin: 0 0 50px;
 }
 
-.main-3-1{display: flex; flex-wrap: wrap; margin-bottom: 100px;
+.main-3-1{display: flex; flex-wrap: wrap; margin-bottom: 50px;
 justify-content: space-between;}
 .main-3-1 li{
     border: 1px solid #e5e5e5; width: 100%;height: 100%;
@@ -227,11 +227,11 @@ text-align: start;}
 
 }
 .main-3-1 li > div > h4{
-    font-size: 20px; margin-bottom: 20px; margin-top: 20px;
+    font-size: 14px; margin-bottom: 20px; margin-top: 20px;
     margin: 0 15px;
 }
 .main-3-1 li > div > p{
-    font-size: 16px; margin-bottom: 10px; padding-top: 20px;
+    font-size: 12px; margin-bottom: 10px; padding-top: 20px;
     margin: 0 15px;
 }
 
@@ -239,7 +239,7 @@ text-align: start;}
     width: 100%; margin: 0 auto;padding: 100px 30px;
 }
 
-.main-4 > h2{font-size: 30px; margin-bottom: 30px;}
+.main-4 > h2{font-size: 14px; margin-bottom: 30px;}
 .main-4 > div{
     display: flex; justify-content: space-around;
     margin-bottom: 100px;
@@ -266,7 +266,7 @@ text-align: start;}
 .main-5{position: relative;
     width: 100%; margin: 0 auto;
     background-color: #f6f6f8 ;
-    overflow: hidden; margin-bottom: 100px;
+    overflow: hidden;
 }
 .main-5 > div{
     display: flex;
