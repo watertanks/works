@@ -295,7 +295,7 @@ padding-bottom: 20px; width: 100%; text-align: center;}
 }
 .main-5-2 > div{align-items: center;}
 .main-5-2 > div > img{width: 50%; height: 50%;margin-left: 25%;}
-.main-5-2 > div > h2{padding-left: 20px; color: #6762a8;
+.main-5-2 > div > h2{padding-left: 20px; color: #6762a8;text-align: center;
 padding-bottom: 20px; width: 100%;}
 .main-5-2 > div > p{
     padding-left: 20px; line-height: 1.5;
@@ -310,7 +310,7 @@ padding-bottom: 20px; width: 100%;}
 }
 .main-5-3 > div{align-items: center;}
 .main-5-3 > div > img{width: 50%; height: 50%;margin-left: 25%;}
-.main-5-3 > div > h2{padding-left: 20px; color: #6762a8;
+.main-5-3 > div > h2{padding-left: 20px; color: #6762a8;text-align: center;
 padding-bottom: 20px; width: 100%;}
 .main-5-3 > div > p{
     padding-left: 20px; line-height: 1.5;
@@ -325,7 +325,7 @@ padding-bottom: 20px; width: 100%;}
 }
 .main-5-4 > div{align-items: center;}
 .main-5-4 > div > img{width: 50%; height: 50%;margin-left: 25%;}
-.main-5-4 > div > h2{padding-left: 20px; color: #6762a8;
+.main-5-4 > div > h2{padding-left: 20px; color: #6762a8;text-align: center;
 padding-bottom: 20px; width: 100%;}
 .main-5-4 > div > p{
     padding-left: 20px; line-height: 1.5;
