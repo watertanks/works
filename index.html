@@ -289,33 +289,43 @@
             mTrigger.classList.toggle('active');
         }
 
-        const mService = document.querySelector(`.m-service`)
-        const mServiceBtn = document.querySelector('.m-service p')
+        // const mService = document.querySelector(`.m-service`)
+        // const mServiceBtn = document.querySelector('.m-service p')
 
-        mService.onclick = function(){
-            mService.classList.toggle('active');
-            mServiceBtn.classList.toggle('active');
-        }
+        // mService.onclick = function(){
+        //     mService.classList.toggle('active');
+        //     mServiceBtn.classList.toggle('active');
+        // }
+
+        $('.m-service').on('click',function(){
+            $('.m-service p').slideToggle();
+        })
 
 
 
+        let num=0;
 
         $('.main-5-2 > span:nth-of-type(1) button').on('click',function(){
             
+
+            if(num < 14){ num++ }
+            console.log(num)
+
             $('.main-5-3').animate({
-                marginLeft : -$('.main-5-3 div').width()
+                marginLeft : -$('.main-5-3 div').width()*num
             },{queue:false})
+        
         })
 
 
         $('.main-5-2 > span:nth-of-type(2) button').on('click',function(){
-            
+            if(num < 14){ num-- }
             $('.main-5-3').animate({
-                marginLeft : $('.main-5-3 div').width()
+                marginLeft : $('.main-5-3 div').width()*num
             },{queue:false})
         })
     
-    
+        // console.log($('.main-5-3 div').length)
 
 
 

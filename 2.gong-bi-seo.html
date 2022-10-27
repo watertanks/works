@@ -270,13 +270,17 @@
             mTrigger.classList.toggle('active');
         }
 
-        const mService = document.querySelector(`.m-service`)
-        const mServiceBtn = document.querySelector('.m-service p')
+        // const mService = document.querySelector(`.m-service`)
+        // const mServiceBtn = document.querySelector('.m-service p')
 
-        mService.onclick = function(){
-            mService.classList.toggle('active');
-            mServiceBtn.classList.toggle('active');
-        }
+        // mService.onclick = function(){
+        //     mService.classList.toggle('active');
+        //     mServiceBtn.classList.toggle('active');
+        // }
+
+        $('.m-service').on('click',function(){
+            $('.m-service p').slideToggle();
+        })
     </script>
     </div>
 </body>

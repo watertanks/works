@@ -337,19 +337,20 @@ header{position: fixed; z-index: 500; width: 100%;}
     .m-nav.active > div:nth-of-type(2) > span{
         
     }
-    .m.m-service{}
+    .m-service{}
 
     .m-service p{
-        transform: translateY(-100%);
+        /* transform: translateY(-100%); */
         display: none;
-        transition: 0.5s;
+        /* transition: 0.5s; */
+        margin-top: 20px;
     }
 
 
     .m-service.active > p{
         padding-top: 20px;
         transform: translateY(10%);
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
         text-align: center;
         transition: 0.5s;
@@ -362,6 +363,12 @@ header{position: fixed; z-index: 500; width: 100%;}
     .m-nav a{
         color: #000;
         font-weight: bold;
+        cursor: pointer;
+    }
+
+    .m-service span p a{
+        height: 10px;
+        
     }
 
 
