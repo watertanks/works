@@ -519,12 +519,13 @@ font-size: 40px; padding: 50px 0;
     position: relative;
 }
 
-.main-5-2 > span > img{}
+.main-5-2 > span > img{display: none;}
 
 .main-5-2 > span > button{
     position: absolute; left: 0.5px;
     height: 50px; width: 50px;
     border-radius: 25px; opacity: 0;
+    display: none;
 }
 
 .main-5-2 > span > button:active{
