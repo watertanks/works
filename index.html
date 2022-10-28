@@ -307,8 +307,7 @@
 
         $('.main-5-2 > span:nth-of-type(1) button').on('click',function(){
             
-
-            if(num < 14){ num++ }
+            if(num> -1 &&num < 13){ num-- }
             console.log(num)
 
             $('.main-5-3').animate({
@@ -317,11 +316,13 @@
         
         })
 
-
+        
         $('.main-5-2 > span:nth-of-type(2) button').on('click',function(){
-            if(num < 14){ num-- }
+            if(num < 12 ){ num++}
+
+            console.log(num)
             $('.main-5-3').animate({
-                marginLeft : $('.main-5-3 div').width()*num
+                marginLeft : -$('.main-5-3 div').width()*num
             },{queue:false})
         })
     
