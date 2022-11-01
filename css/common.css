@@ -125,6 +125,7 @@ a{text-decoration: none;}
         width: 100%; height: 100%;
         transform: translateY(-100%);
         transition: 0.5s;
+        display: none;
         
 }
 .m-nav.active{
