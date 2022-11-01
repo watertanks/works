@@ -61,8 +61,8 @@ text-align: start;}
 
 .main-4 > h2{font-size: 30px; margin-bottom: 30px;}
 .main-4 > div{
-    display: flex; justify-content: space-around; flex-direction: column;
-    margin-bottom: 100px;
+    display: flex; justify-content: space-around;
+    margin-bottom: 100px;align-items: center;
 }
 .main-4 > div > ul{}
 .main-4 > div > ul > img{}
@@ -242,11 +242,12 @@ text-align: start;}
 .main-4 > h2{font-size: 14px; margin-bottom: 30px;}
 .main-4 > div{
     display: flex; justify-content: space-around;
-    margin-bottom: 100px;
+    margin-bottom: 100px; flex-direction: column;
 }
 .main-4 > div > ul{}
 .main-4 > div > ul > img{
     width: 100%;
+    margin: 0 auto;
 }
 
 .main-4-1{}

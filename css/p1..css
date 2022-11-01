@@ -19,7 +19,7 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
 }
 .main-1 > video{
     width: 100%;
-    text-align: center;
+    
 }
 .main-1 > div{
     position: absolute;
@@ -27,6 +27,7 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     font-size: 26px; color: #fff;
     text-align: center; transform: translate(-50%, -50%);
     display: flex; flex-direction: column;
+    z-index: 99;
 }
 
 .main-1> div >p{
@@ -46,6 +47,13 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     margin-top: 30px;
     font-size: 16px;
 }
+
+.view{}
+
+.view:hover{
+    cursor: pointer;
+}
+.view img{margin-top: 50px;}
 
 .main-2{
     display: flex; height: 370px;
@@ -145,7 +153,7 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
 
 
 .main-4{
-    background-image: url(/Project/img/01.main/main_img_culture_bg\ \(1\).png);
+    background-image: url(../img/01.main/main_img_culture_bg.png);
     background-repeat: no-repeat; width: 100%;
     height: 700px; margin: 0 auto; align-items: center; margin: 0 auto;
     justify-content: center;
@@ -155,6 +163,9 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     width: 1200px; margin: 0 auto;
     left: 15%; 
 }
+
+
+.m-cul{display: none;}
 .s3{
     border: 1px solid #626262; border-radius: 20px;
     width: 140px; text-align: center; margin-top: 40px;
@@ -480,9 +491,9 @@ font-size: 40px; padding: 50px 0;
 
 
 .main-4{
-    background-image: url(/Project/img/01.main/main_img_culture_bg\ \(1\).png);
-    background-repeat: no-repeat; width: 100%;
-    height: 700px; margin: 0 auto; align-items: center; margin: 0 auto;
+    background-image: none;
+    width: 100%;
+    height: 100%; margin: 0 auto; align-items: center; margin: 0 auto;
     justify-content: center; padding:50px 50px;
 }
 
@@ -490,6 +501,13 @@ font-size: 40px; padding: 50px 0;
     width: 100%; margin: 0 auto;
     left: 15%; 
 }
+
+.m-cul{display: block;}
+.m-cul img{
+    width: 100%;height: 100%;
+}
+
+
 .s3{
     border: 1px solid #626262; border-radius: 20px;
     width: 140px; text-align: center; margin-top: 40px;

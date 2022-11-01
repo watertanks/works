@@ -95,11 +95,15 @@
                 <div>
                     <p>헤렌은 사람들이 더 나은 삶의 질을 경험하도록 문제를 해결하고,<br>
                     파괴적 혁신을 만듭니다</p>
-                <p>* 파괴적 혁신 : 단순하고 저렴한 서비스로 시장의 코어를 공략해 기존 시장을 혁신하고 시장을 장악하는 전략</p>
-                <p>View More</p>
-                <span><img src="./img/01.main/arrow_bottom.svg" alt=""></span>
+                    <p>* 파괴적 혁신 : 단순하고 저렴한 서비스로 시장의 코어를 공략해 기존 시장을 혁신하고 시장을 장악하는 전략</p>
+                    
+                    <div class="view">
+                        <p>View More</p>
+                        <span><img src="./img/01.main/arrow_bottom.svg" alt=""></span>
+                    </div>
+                </div>
             </div>
-            </div>
+
             <div class="main-2">
                 <div>
                 <b>빠르게 성장하는 <br>탄탄한 스타트업</b>
@@ -147,6 +151,9 @@
                     <div class="s3">
                         <a href="./4.culture.html" rel="혜렌 문화 보기">헤렌 문화 보기</a>
                     </div>
+                </div>
+                <div class="m-cul">
+                    <img src="./img/01.main/main_img_culture_bg_mobile.png" alt="">
                 </div>
             </div>
             <div class="main-5">
@@ -300,6 +307,21 @@
         $('.m-service').on('click',function(){
             $('.m-service p').slideToggle();
         })
+
+
+
+        $('.view').on('click',()=>{
+            $('.main-2').offset().top
+        })
+
+
+
+
+
+
+
+
+
 
 
 
