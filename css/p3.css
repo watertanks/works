@@ -246,13 +246,16 @@ padding-bottom: 50px; line-height: 28px;}
 }
 .main-8-1 > div > div >div{
     width: 156px; height: 62px;
-    
+
 }
 .main-8-1 > div > div > div > h2{
     font-size: 24px; width: 203px;
+    display: flex; 
 }
-.main-8-1 > div > div > div > h2 > a > img{
+
+.main-8-1 > div > div > div > h2 div a  img{
     width: 20px; height: 20px;
+    margin-top: 10px; margin-left: 10px;
 }
 .main-8-1 > div > div >div> p{
     font-size: 14px; color: #929292;
@@ -262,6 +265,7 @@ padding-bottom: 50px; line-height: 28px;}
 
 .main-8-1 > div > div >div> a > img{
     width: 32px; height: 32px;
+    align-items: center;
 }
 
 
