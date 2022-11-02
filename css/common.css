@@ -320,9 +320,9 @@ header{position: fixed; z-index: 500; width: 100%;}
     
     
     .m-nav.active{
-        height: 350px;
+        height: 420px;
         justify-content:start;
-        top:-20px;
+        top:-30px;
         
     }
 
