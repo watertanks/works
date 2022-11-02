@@ -202,7 +202,7 @@ a{text-decoration: none;}
     text-decoration: underline;
     font-size: 18px;
 } 
-.footer-1 > div > div >span > p{
+.footer-1 > div > div >span > a{
     color: #888888; font-size: 18px;
 }
 
