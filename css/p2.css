@@ -104,6 +104,7 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
 .main-3 >div > div:nth-of-type(2) > span{
     margin-bottom: 60px;
 }
+.main-3 >div > div:nth-of-type(2) > span:nth-of-type(2) img{width: 900px;}
 .main-3 > div > div:nth-of-type(2) > span:nth-of-type(3){display: none;}
 .main-3> div > div:nth-of-type(2) > span > b{
     font-size: 34px;
@@ -142,6 +143,7 @@ display: flex; padding-bottom: 500px;}
 }
 .main-4-2 > div:nth-of-type(1) > img{
     width: 65px; height: 20px;
+    margin-top: 20px;
 }
 
 .main-4-2 > div:nth-of-type(2){
@@ -155,6 +157,8 @@ display: flex; padding-bottom: 500px;}
 .main-4-2 > div:nth-of-type(2) >div:nth-of-type(1) > p:nth-of-type(2){
     font-size: 14px;color: #929292;
 }
+.main-4-2 > div:nth-of-type(2) >div:nth-of-type(2) a{margin-left: 20px;}
+
 .main-4-2 > div:nth-of-type(2) >div:nth-of-type(2) > a:nth-of-type(3) > img{
     width: 32px; height: 32px;
 }
@@ -166,6 +170,7 @@ display: flex; padding-bottom: 500px;}
 }
 .main-4-3 > div:nth-of-type(1) > img{
     width: 65px; height: 20px;
+    margin-top: 20px;
 }
 
 .main-4-3 > div:nth-of-type(2){
@@ -179,6 +184,7 @@ display: flex; padding-bottom: 500px;}
 .main-4-3 > div:nth-of-type(2) >div:nth-of-type(1) > p:nth-of-type(2){
     font-size: 14px;color: #929292;
 }
+.main-4-3 > div:nth-of-type(2) >div:nth-of-type(2) a{margin-left: 20px;}
 .main-4-3 > div:nth-of-type(2) >div:nth-of-type(2) a:nth-of-type(2) > img{
     width: 32px; height: 32px;
 }
@@ -190,6 +196,7 @@ display: flex; padding-bottom: 500px;}
 }
 .main-4-4 > div:nth-of-type(1) > img{
     width: 65px; height: 20px;
+    margin-top: 20px;
 }
 
 .main-4-4 > div:nth-of-type(2){
@@ -216,7 +223,7 @@ display: flex; padding-bottom: 500px;}
 .main-5 img:nth-of-type(2){display: none;}
 .main-5 > div{
     position: absolute;
-    top: 30%; left: 40%;
+    top: 30%; left: 30%;
 }
 
 .main-5 > div >p{
