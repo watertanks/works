@@ -425,6 +425,25 @@
         window.open('http://www.dt.co.kr/contents.html?article_no=2020051102109919711024&ref=naver', '_blank'); 
     })
         
+    const mTrigger = document.querySelector(`.trigger-menu`)
+        const mNav = document.querySelector(`.m-nav`)
+
+        mTrigger.onclick = function(){
+            mNav.classList.toggle('active');
+            mTrigger.classList.toggle('active');
+        }
+
+        // const mService = document.querySelector(`.m-service`)
+        // const mServiceBtn = document.querySelector('.m-service p')
+
+        // mService.onclick = function(){
+        //     mService.classList.toggle('active');
+        //     mServiceBtn.classList.toggle('active');
+        // }
+
+        $('.m-service').on('click',function(){
+            $('.m-service p').slideToggle();
+        })
     
 
 

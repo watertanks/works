@@ -246,7 +246,7 @@ h4{}
 ============================================================================ */
 @media (max-width: 785px){
 header{position: fixed; z-index: 500; width: 100%;}
-    .header{position: fixed; z-index: 500; width: 100%; z-index: 150;
+    .header{position: fixed; z-index: 500; width: 100%;
     }
     .header > div{
         width: 100%;
@@ -345,7 +345,10 @@ header{position: fixed; z-index: 500; width: 100%;}
         display: none;
         /* transition: 0.5s; */
         margin-top: 20px;
+        text-align: center;
+        height: 40px;
     }
+    .m-service p a{align-items: center;}
 
 
     .m-service.active > p{
@@ -413,7 +416,7 @@ header{position: fixed; z-index: 500; width: 100%;}
 
 
     .side{position: fixed;z-index: 150;
-        bottom:0; height: 60px;
+        bottom:0; height: 70px;
         width: 100%;margin: 0 auto;
         left: 0; align-items: center;
         text-align: center;
@@ -426,7 +429,7 @@ header{position: fixed; z-index: 500; width: 100%;}
     .side > a{
         font-size: 16px;
         width: 100%;
-    }W
+    }
     .side > img{display: none;
     }
     

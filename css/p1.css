@@ -328,12 +328,13 @@ font-size: 40px; padding: 50px 0;
 
 .main-1{
     margin: 0; width: 100%;
+    padding-bottom: 20px;
 }
 .main-1 > video{
     width: 100%;
     height: 500px;
     text-align: center;
-    padding-top: 55px;
+    padding-top: 54px;
     object-fit: cover;
 }
 .main-1 > div{
@@ -427,25 +428,25 @@ font-size: 40px; padding: 50px 0;
     flex-direction: column;text-align: center;
     box-shadow: 20px -10px 10 10 gray;
     border: 1px solid #eee;
+    margin-top: 50px;
 }
 
 .main-3-2 > a{
-    width: 100%;
-    font-size: 70px;
-    transition: 0.4s; 
+    transition: 0.4s;
+    padding: 60px;
     cursor: default;
-    box-sizing: border-box;
-    position: relative;
+    width: 100%;
 }
-.main-3-2  a  img{
-    width: 50%;
+.main-3-2 a:active{    
+    background-color:none !important; 
+    z-index: 0;
+}
+
+.main-3-2 a img{
+    width: 90%;
     margin: 0 auto;
     padding:0;
-    position: absolute;
-    display: block;
-    left: 22.5%;
-    top: 50%;
-    
+    z-index: 99;
 }
 
 .main-3-2 > a img:nth-of-type(2){
