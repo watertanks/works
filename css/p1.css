@@ -61,6 +61,7 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     justify-content: space-between;
     width: 1200px; margin: 0 auto;
     padding: 50px;
+    
 
 }
 .main-2 > div{
@@ -78,6 +79,7 @@ body{font-family: "Noto Sans KR", Sans-Serif;}
     display: flex; padding: 50px;
     justify-content: space-evenly;
     align-items: center; font-weight: bold;
+    ;
 }
 
 .main-3-1{
